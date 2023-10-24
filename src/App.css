@@ -118,3 +118,7 @@ body {
 :where(.css-dev-only-do-not-override-xu9wm8).ant-btn.ant-btn-round.ant-btn-lg {
   background-color: #00b14f;
 }
+
+:where(.css-dev-only-do-not-override-xu9wm8).ant-btn-primary {
+  background-color: #00b14f;
+}
