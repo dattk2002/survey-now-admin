@@ -43,3 +43,7 @@ code {
 .table-user-list {
   margin-top: 5%;
 }
+
+.avatar-dropdown {
+  display: flex;
+}
