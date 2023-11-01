@@ -29,6 +29,12 @@ const Header = () => {
             <NavLink to="/usersurveyed" className="nav-link">
               User Surveyed
             </NavLink>
+            <NavLink to="/redeem-requests" className="nav-link">
+              Redeem Requests
+            </NavLink>
+            <NavLink to="/transaction-history" className="nav-link">
+              Transaction History
+            </NavLink>
             <div className="avatar-dropdown">
               <Avatar
                 alt="Ducki ducki"

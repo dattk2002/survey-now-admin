@@ -44,6 +44,13 @@ code {
   margin-top: 5%;
 }
 
+.table-exchange-point {
+  margin-top: 5%;
+}
+.table-history-exchange {
+  margin-top: 5%;
+}
+
 .avatar-dropdown {
   display: flex;
 }

@@ -10,6 +10,8 @@ import UserList from "./components/UserList";
 import UserSurveyed from "./components/UserSurveyed";
 import CreatedSurvey from "./components/CreatedSurvey";
 import AboutUs from "./components/AboutUs";
+import RedeemRequests from "./components/RedeemRequests";
+import TransactionHistory from "./components/TransactionHistory";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,6 +23,8 @@ root.render(
           <Route path="/statistic" element={<Statistic />} />
           <Route path="/userlist" element={<UserList />} />
           <Route path="/usersurveyed" element={<UserSurveyed />} />
+          <Route path="/redeem-requests" element={<RedeemRequests />} />
+          <Route path="/transaction-history" element={<TransactionHistory />} />
           <Route index element={<AboutUs />} />
         </Route>
       </Routes>
